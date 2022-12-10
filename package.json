@@ -29,9 +29,11 @@
     "publishPublic": "npm publish --access public"
   },
   "dependencies": {
-    "@pancakeswap/sdk": "^3.1.1",
-    "dotenv": "^16.0.3",
-    "ethers": "^5.7.2"
+    "@ethersproject/contracts": "^5.7.0",
+    "@ethersproject/networks": "^5.7.1",
+    "@ethersproject/providers": "^5.7.2",
+    "@ethersproject/solidity": "^5.7.0",
+    "@pancakeswap/sdk": "^3.1.1"
   },
   "devDependencies": {
     "@rollup/plugin-typescript": "^10.0.1",
